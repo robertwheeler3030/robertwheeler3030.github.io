@@ -1,0 +1,30 @@
+.movingHeader {
+    font-weight: 900;
+    font-size: 7em;
+  }
+  
+  .movingHeader .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+  
+  .movingHeader .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+  }
+  
+  .movingHeader .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    font-size: medium;
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    transform-origin: 0 0;
+  }
+  
+  .movingHeader .line1 { top: 0; }
